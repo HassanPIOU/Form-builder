@@ -1,0 +1,7 @@
+.f-radio{display: inline-block;position: relative;cursor: pointer;font-size: 16px;user-select: none;padding-left: 30px;
+    margin-top: 20px;}
+.f-radio input{display: none;}.f-radio .circle{display: inline-block;width: 25px;height: 25px;background: #eee;position: absolute;left: 0;top: 0;border-radius: 50%}
+.f-radio .square{display: inline-block;width: 25px;height: 25px;background: #eee;position: absolute;left: 0;top: 0;border-radius: 15%}  .f-radio:hover .circle{background-color: #ccc;}.f-radio input:checked + .circle{background-color: #0a8dd3;}
+.f-radio input:checked + .circle:after{content: '';height: 10px;width: 10px;background-color: #fff;position: absolute;border-radius: 50%;left: 50%;top: 50%;transform: translate(-50%, -50%);}
+.f-radio:hover .square{background-color: #ccc;}.f-radio input:checked + .square{background-color: #5DADE2;}
+.f-radio input:checked + .square:after{content: '';height: 10px;width: 10px;background-color: #fff;position: absolute;border-radius: 15%;left: 50%;top: 50%;transform: translate(-50%, -50%);}

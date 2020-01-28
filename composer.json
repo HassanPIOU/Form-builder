@@ -1,0 +1,19 @@
+{
+    "name": "pollen/formgenerate",
+    "description": "Class to generate form Html and Css (Bootstrap). easy way to create forms",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "FormGenerate\\": "src",
+            "Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
+    }
+}
