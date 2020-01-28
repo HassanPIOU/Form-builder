@@ -15,7 +15,7 @@
 
 
 * Create form
-````code
+````php
  $form = new Form();
  
  $form->input("name" ,"label", [$attr], true (required));
